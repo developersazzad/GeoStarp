@@ -1,0 +1,185 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  width:;
+}
+html{
+  overflow-x:hidden;
+  scroll-behavior: smooth;
+}
+.brand_nav{
+  font-size:30px!important;
+}
+.nav_text{
+  font-size:19px;
+  padding:5px;
+  text-decoration:none !important;
+  color:black;
+  transition: .3s;
+}
+.nav_text:hover{
+  color:white;
+}
+.item_carousel{
+  height: 450px;
+}
+.item_testomonial{
+  height: 150px;
+}
+.carousel_item_1{
+  background:linear-gradient(#0000,black),url(../img_u/carousel/sp_r.jpg);
+  background-attachment:scroll;
+  background-size: cover;
+  background-position: center top;
+
+}
+.carousel_item_2{
+  background:linear-gradient(#0000,black),url(../img_u/carousel/Core.jpg);
+  background-attachment:scroll;
+  background-size: cover;
+  background-position: center top;
+
+}
+.carousel_item_3{
+  background:linear-gradient(#0000,black),url(../img_u/carousel/key.jpg);
+  background-attachment:scroll;
+  background-size: cover;
+  background-position: center top;
+
+}
+.box .fa{
+  font-size:45px;
+  margin-bottom: 10px;
+}
+.navbar-light.bg-primary{
+  background: #11cdff !important;
+}
+.navbar{
+  opacity:1;
+}
+/*============================
+======================================
+===================*/
+@media (min-width:768px) {
+.container_box{
+  padding: 30px 50px;
+}
+
+.icon .fa{
+ font-size:100px;
+}
+}
+/*==========================
+==========================================*/
+.box_shadow_ser{
+box-shadow:1px 0px 14px 0px #bdb7b7;
+}
+.icon .fa{
+  font-size:70px;
+ border:1px solid orange;
+  padding: 10px;
+  color:orange;
+
+}
+h2.text_kno{
+  font-family:oswald;
+}
+.nB_bx{
+  font-size:16px !important;
+}
+.np_bx{
+  font-size:18px !important;
+}
+.img_team{
+  border-radius:5px;
+}
+img.image-fluid.d-block.images_team.w-50.rounded-circle.align-self-center {
+    margin-top: -60px;
+}
+@media (max-width:786px) {
+  img.image-fluid.d-block.images_team.w-50.rounded-circle.align-self-center {
+      margin-top: 0px !important;
+      width: 200px !important;
+    }
+    .item_testomonial{
+      height: 200px;
+    }
+}
+.team_bx .card{
+  transition: all .6s;
+}
+.team_bx .card:hover{
+  background: orange;
+
+}
+section.contect_section.p-5 {
+    background: #25dbff;
+}
+::placeholder{
+  color:black;
+  opacity: 1;
+  font-size: 18px !important;
+}
+.footer_text a{
+  text-decoration: none;
+  font-size: 20px;
+  color:orange;
+}
+li.footer_text{
+  list-style: none;
+}
+.footer_text .fa{
+  font-size: 25px;
+transition: .3s;
+}
+.footer_text .fa:hover{
+  color:white;
+}
+.navbar_borderd{
+  border-bottom: 4px solid #25dbff;
+}
+.bg_navbar{
+background: #ffc107;
+opacity: .9;
+}
+ol.testomonil_ol li {
+    color: black;
+    background: black;
+    width: 16px;
+    border-radius: 50%;
+    height: 16px;
+}
+ol.testomonil_ol li.active{
+background:orange;
+}
+/*=========bg==========*/
+.bg_warning{
+  background: #25dbff;
+}
+/*=========bg==========*/
+
+.section_meet .fa{
+  color:orange;
+}
+.section_meet:hover .fa{
+  color:white !important;
+}
+
+/*=======================about section=======*/
+.about_top{
+  background:linear-gradient(#25231d85,#1a1810a1), url(../img_u/carousel/IMG_20200627_101929.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  margin-top:90px !important;
+  text-align: center !important;
+}
+/*=======================Blog section==========*/
+.blog_top{
+  background:linear-gradient(#25231d85,#1a1810a1), url(../img_u/carousel/sp_r.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  margin-top:90px !important;
+  text-align: center !important;
+}
